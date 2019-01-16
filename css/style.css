@@ -1,0 +1,130 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  border-bottom: 1px solid #222;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header .notification {
+  font-weight: bold;
+  color: red;
+}
+
+.header h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.header a {
+  font-size: 18px;
+  line-height: 2em;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #000;
+  font-weight: bold;
+}
+
+.header .action {
+  float: right;
+}
+
+.header .action button {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.container {
+  display: block;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template: auto / auto auto auto auto;
+  grid-gap: 10px;
+  grid-gap: 20px 50px;
+  padding-top: 20px;
+}
+
+.product {
+  border: 1px solid #222;
+}
+
+.product input {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.product p {
+  text-align: center;
+}
+
+.product h2 {
+  text-align: center;
+}
+
+.add-product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-group input {
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  padding-left: 20px;
+  border: 1px solid #444;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.switcher label {
+  width: 150px;
+}
+
+.switcher select {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
